@@ -14,13 +14,13 @@
 ### Executando ⚙️
 
 ```sh
-# Website: https://exploretheuniverse.netlify.app/
+# Website: https://exploretheuniverse.herokuapp.com/
 
 # Clone
-$ git clone git@github.com:EricNeves/Simple-SPA.git
+$ git clone git@github.com:EricNeves/exploretheuniverse.git
 
 # Install Dependencies
-$ cd Simple-SPA && npm install
+$ cd exploretheuniverse && npm install
 
 # Execute
 $ npm start
