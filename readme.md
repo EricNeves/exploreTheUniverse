@@ -10,7 +10,7 @@
 <p>Explore the Universe, uma página web que a cada dia mostra uma imagem e descrição de algo relacionado ao nosso grande universo. Os dados são consumidos da API APOD (<a href="https://apod.nasa.gov/apod/astropix.html" target="_blank">Astronomy Pictures of the Day</a>).</p>
 
 ![Recorder](./.github/screenshotA.png)
-<br/>
+<br/><br/>
 ![Recorder](./.github/screenshotB.png)
 
 ### Executando ⚙️
