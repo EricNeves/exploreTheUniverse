@@ -36,18 +36,20 @@ function eventBoxModal() {
  * @argument Object data 
 */
 function renderData(data) {
+    const { url, title, date, explanation, copyright = 'Nasa' } = data
+
     const component = `
         <div class="modal__image">
-                <img src="${data.url}" alt="APOD">
+                <img src="${url}" alt="APOD">
         </div>
             
         <div class="modal__description">
-            <h2>${data.title}</h2>
-            <span class="date">${data.date}</span>
+            <h2>${title}</h2>
+            <span class="date">${date}</span>
             
-            <p>${data.explanation}</p>
+            <p>${explanation}</p>
             
-            <span class="copyright">- ${data.copyright}</span>
+            <span class="copyright">- ${copyright}</span>
         </div>
     `
 
