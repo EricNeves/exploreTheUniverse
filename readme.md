@@ -16,7 +16,7 @@
 ### Executando ⚙️
 
 ```sh
-# Website: https://exploretheuniverse.herokuapp.com/
+# Website: https://exploretheuniverse.netlify.app/
 
 # Clone
 $ git clone git@github.com:EricNeves/exploretheuniverse.git
