@@ -80,7 +80,10 @@ main .introduction p {
     text-align: justify;
     margin-bottom: 3.5rem;
 }
-main .introduction a {
+main #apod__link {
+    color: var(--success);
+}
+main #openModal {
     background: var(--pink);
     color: var(--light);
     padding: .8rem 3rem;
