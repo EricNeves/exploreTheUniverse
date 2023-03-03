@@ -10,12 +10,12 @@ const prefixerCSS = () => {
         .pipe(autoprefixer({
             cascade: false
         }))
-        .pipe(dest('./public/assets/css'))
+        .pipe(dest('./dist/assets/css'))
 }
 
 const copyJS = () => {
     return src('./src/assets/js/*.js')
-        .pipe(dest('public/assets/js'))
+        .pipe(dest('dist/assets/js'))
 }
 
 const copyImages = () => {
@@ -27,12 +27,12 @@ const copyImages = () => {
         'src/assets/images/*.gif',
         'src/assets/images/*.ico'
     ])
-    .pipe(dest('public/assets/images'))
+    .pipe(dest('dist/assets/images'))
 }
 
 const copyHTML = () => {
     return src('./src/*.html')
-        .pipe(dest('./public'))
+        .pipe(dest('./dist'))
 }
 
 exports.default = series(
