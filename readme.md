@@ -26,6 +26,8 @@ $ cd exploretheuniverse && npm install
 
 # Execute
 $ npm start
+# Execute as dev
+$ npm run dev
 # Build
 $ npm run build
 ```
