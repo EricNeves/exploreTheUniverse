@@ -1,7 +1,5 @@
 /**
  * @author Eric Neves
- * @version 1.0
- * @description Main file 
 */
 
 const $openModal = document.getElementById('openModal')
