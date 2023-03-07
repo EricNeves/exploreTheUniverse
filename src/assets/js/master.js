@@ -1,6 +1,5 @@
 /**
  * @author Eric Neves
- * @description Main JS file 
 */
 
 const $openModal = document.getElementById('openModal')
