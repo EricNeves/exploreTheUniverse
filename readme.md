@@ -37,9 +37,10 @@ $ npm run build
    * HTML5
    * CSS3
    * Javascript
+     * Fetch API
    * NodeJS
-     * [Express]('https://expressjs.com/')
-     * [GulpJS]('https://gulpjs.com/')
+     * Express
+     * Webpack
 
 ### 📝 License
 
